@@ -158,16 +158,12 @@
     padding: 0 2rem;
   }
 
-  .services-row {
-    justify-content: center;
-    row-gap: 5rem;
-  }
   .service-card {
-    flex: 0 0 30.5rem;
+    flex: 0 1 100%;
   }
 
-  .service-card-img {
-    height: 4rem;
+  .services-row {
+    gap: 2rem;
   }
 
   .project-box {
