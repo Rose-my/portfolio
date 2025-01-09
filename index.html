@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>김민영 | 웹 포트폴리오</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div class="jumping-dots">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <header id="header" class="header">
+      <div class="container container-lg">
+        <div class="header-nav">
+          <a href="#home" class="logo"><span>Rose Portfolio</span></a>
+          <nav id="nav" class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Works</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <button id="nav-btn" class="nav-btn">
+              <img
+                id="nav-btn-img"
+                src="img/icons/open.svg"
+                alt="Navigation button"
+              />
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container container-lg">
+        <div
+          class="hero-row"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="1800"
+          data-aos-duration="2000"
+        >
+          <div class="hero-content">
+            <span class="hero-greeting"> Hello, I am</span>
+            <h1 class="hero-heading">Rose Minyoung Kim</h1>
+            <span class="hero-heading-subtitle">Web Frontend Developer</span>
+            <div class="about-social-list">
+              <div class="social-links-row">
+                <a href="https://github.com/Rose-my">
+                  <img
+                    src="img/social_icons/github.svg"
+                    alt="Link to GitHub account"
+                  />
+                </a>
+
+                <a href="https://www.linkedin.com/in/rose-minyoung/">
+                  <img
+                    src="img/social_icons/linkedin.svg"
+                    alt="Link to linkedin profile"
+                  />
+                </a>
+
+                <a href="https://www.instagram.com/minyoungee/">
+                  <img
+                    src="img/social_icons/instagram.svg"
+                    alt="Link to instagram profile"
+                /></a>
+              </div>
+            </div>
+
+            <div>
+              <a href="#projects" class="btn">My Portfolio</a>
+              <a href="#contact" class="btn btn-white">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img
+              src="img/hero/rose.png"
+              alt="Picture of Christian Buehner taken from Unsplash</a>
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-title">
+          <h2 class="title">About Me</h2>
+        </div>
+        <div class="about-row">
+          <div class="about-content">
+            <p class="about-descr">
+              사용자 중심의 서비스를 개발하고 직관적인 경험을 제공하는
+              프론트엔드 개발자 로즈입니다. <br />
+              <br />
+              좋아하면 더 잘한다는 마음으로 프론트엔드 개발 일을 하고 있습니다.
+              탄탄한 코드 위에 감각적인 인터페이스를 그려내는 일을 해요.
+              사용성과 유지보수를 고려한 효율적인 마크업을 바탕으로, 정보와
+              가치를 잘 전달하기 위한 최적화를 고민하고 구현합니다. 최종적으로는
+              사용자가 서비스를 신뢰하게 만들고 의미 있는 변화를 이끌어낼 수
+              있는 개발자가 되는 것이 저의 목표입니다. <br />
+              <br />
+              좋아하니까 나답게, 끊임없이 생각하고 배우며 즐겁게 일하고 있습니다
+              :)
+            </p>
+            <div class="about-download-btn">
+              <a
+                href="https://boiled-limburger-2a1.notion.site/Rose-fbcce6d7da234a869317511b9ee7c7af?pvs=4"
+                class="btn btn-white"
+              >
+                CV / Résumé
+              </a>
+            </div>
+          </div>
+          <div class="about-skills">
+            <div class="skill">
+              <div class="skill-title">HTML/CSS</div>
+              <div class="skill-percent">90%</div>
+              <div class="skillbar" style="width: 90%"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">JavaScript/Typescript</div>
+              <div class="skill-percent">90%</div>
+              <div class="skillbar" style="width: 90%"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">React</div>
+              <div class="skill-percent">90%</div>
+              <div class="skillbar" style="width: 90%"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Slack/MS Office</div>
+              <div class="skill-percent">100%</div>
+              <div class="skillbar" style="width: 100%"></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Git</div>
+              <div class="skill-percent">100%</div>
+              <div class="skillbar" style="width: 100%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-row">
+          <div class="service-card" data-aos="fade-down">
+            <img class="service-card-img" src="img/services/01.svg" alt="" />
+            <h3 class="service-card-title">Style and Markup</h3>
+            <p>
+              어떤 기기에서도 잘 보이는 반응형 구현을 잘 개발해요.
+              <br /><br />SEO와 크로스 브라우징, 웹 접근성에 대한 대응도 놓치지
+              않습니다. 견고한 컴포넌트 설계부터 Styled-component나 Tailwind
+              등의 유연한 Css-In-JS 방식까지, 새로운 기술을 배우고 프로젝트에
+              가장 적합한 방식을 택해 스타일링합니다.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-down">
+            <img class="service-card-img" src="img/services/02.svg" alt="" />
+            <h3 class="service-card-title">Frontend Development</h3>
+            <p>
+              웹 개발에 대한 이해도가 높으며, React, NextJS 환경에서 개발 경험이
+              있습니다. <br /><br />
+              Vite 번들러를 활용한 효율적인 개발 환경 구축에 능숙하며,
+              스프린트부터 서비스 런칭, QA, 리팩토링, 그리고 테스트 코드
+              작성까지의 전 과정을 익숙하게 수행할 수 있습니다. <br />
+              개발 환경과 운영 환경을 분리하여 Vercel을 통한 배포 프로세스를
+              경험하며, 안정적인 서비스 운영에 기여했습니다. 리드 개발자로서
+              하나의 서비스에 오너십을 가지고 운영하며, 팀원들과 협력해 실질적인
+              성과를 만들어내는 데 집중해본 경험이 있습니다.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="fade-down">
+            <img class="service-card-img" src="img/services/03.svg" alt="" />
+            <h3 class="service-card-title">Co Work</h3>
+            <p>
+              사용자 경험을 우선적으로 고려하며, 함께 하는 동료들의 피드백을
+              수용하고 개선할 점은 적절한 근거로 신뢰할 수 있는 팀원이 되는 것을
+              중요하게 생각해요. <br /><br />
+              서로의 생각과 의도를 이해하고 얘기를 나누며 결과물을 만들어
+              냅니다. 다방면에서 사용자를 고려하고 개선점을 고민하는 것도
+              좋아합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="articles" class="articles">
+      <div class="container container-lg">
+        <div class="articles-title">
+          <h2 class="title">Articles</h2>
+          <p class="description">
+            블로그에 새로 배운 지식을 공유하고 명확한 pr로 소통을 주도해요
+          </p>
+        </div>
+
+        <div class="articles-row">
+          <div class="articles-box">
+            <a href="https://rose-my.tistory.com/126">
+              <div class="articles-mask">
+                <div class="articles-caption">
+                  <h5 class="white">Vercel로 React 프로젝트 배포</h5>
+                  <p class="white">UI/UX Design</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="articles-box">
+            <a href="https://github.com/CEOS-Developers/react-todo-19th/pull/4">
+              <div class="articles-mask">
+                <div class="articles-caption">
+                  <h5 class="white">리액트 프로젝트 PR 예시</h5>
+                  <p class="white">UI/UX Design</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="articles-box">
+            <a href="https://github.com/couplelog/lubee-client/pull/50">
+              <div class="articles-mask">
+                <div class="articles-caption">
+                  <h5 class="white">소셜로그인 연결 PR 예시</h5>
+                  <p class="white">UI/UX Design</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="articles-box">
+            <a href="https://github.com/CEOS-Developers/react-vote-19th/pull/5">
+              <div class="articles-mask">
+                <div class="articles-caption">
+                  <h5 class="white">서버통신 PR 예시</h5>
+                  <p class="white">UI/UX Design</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container container-lg">
+        <div class="projects-title">
+          <h2 class="title">Works</h2>
+        </div>
+
+        <div class="projects-row">
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/01.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Finance Dashboard</h5>
+                  <p class="white">UI/UX Design</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/02.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Product design</h5>
+                  <p class="white">UI/UX Design</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/03.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Landing Page</h5>
+                  <p class="white">UI/UX Design, Web Development</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/04.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Portfolio</h5>
+                  <p class="white">Web Development</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/05.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Cosmic Sea</h5>
+                  <p class="white">UI/UX Design, Web Development</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="project-box">
+            <a href="#!">
+              <img class="project-img" src="img/works/06.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">eCommerce</h5>
+                  <p class="white">Web Development</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-title">
+          <h2 class="title">Contact</h2>
+        </div>
+        <div class="contact-content">
+          <p>
+            함께 일할 사람을 찾고 계신가요?
+            <br />
+            합류 및 협업 제안이 있으시다면 언제든지 연락주세요 :)
+          </p>
+        </div>
+
+        <form data-aos="zoom-in">
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </form>
+
+        <div class="contact-button" data-aos="fade-up">
+          <a href="#!" class="btn btn-red">메일 보내기</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="social-links-row footer-social">
+            <a href="https://github.com/Rose-my">
+              <img
+                src="img/social_icons/github.svg"
+                alt="Link to GitHub account"
+              />
+            </a>
+
+            <a href="https://www.linkedin.com/in/rose-minyoung/">
+              <img
+                src="img/social_icons/linkedin.svg"
+                alt="Link to linkedin profile"
+              />
+            </a>
+
+            <a href="https://www.instagram.com/minyoungee/">
+              <img
+                src="img/social_icons/instagram.svg"
+                alt="Link to instagram profile"
+            /></a>
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy; Copyright Rose Minyoung Kim</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="goToTop" class="goToTop">
+      <a href="#home">
+        <img src="img/icons/arrow_up.svg" alt="Back to top"
+      /></a>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
