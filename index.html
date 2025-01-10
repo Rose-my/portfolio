@@ -38,7 +38,10 @@
                 <a href="#about" class="nav-link">About</a>
               </li>
               <li class="nav-item">
-                <a href="#projects" class="nav-link">Works</a>
+                <a href="#articles" class="nav-link">Share</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
               </li>
               <li class="nav-item">
                 <a href="#contact" class="nav-link">Contact</a>
@@ -215,52 +218,83 @@
     </section>
 
     <section id="articles" class="articles">
-      <div class="container container-lg">
+      <div class="container">
         <div class="articles-title">
-          <h2 class="title">Articles</h2>
+          <h2 class="title">Share & Communicate</h2>
           <p class="description">
-            블로그에 새로 배운 지식을 공유하고 명확한 pr로 소통을 주도해요
+            블로그에 새로 배운 지식을 공유하고 명확한 pr로 팀원들과 원할한
+            소통을 이끌어내요
           </p>
         </div>
 
-        <div class="articles-row">
-          <div class="articles-box">
+        <div class="articles-column">
+          <div
+            class="articles-box"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <a href="https://rose-my.tistory.com/126">
               <div class="articles-mask">
+                <img class="articles-img" src="img/articles/01.jpg" alt="" />
                 <div class="articles-caption">
-                  <h5 class="white">Vercel로 React 프로젝트 배포</h5>
-                  <p class="white">UI/UX Design</p>
+                  <h5 class="blacktext">Vercel로 React 프로젝트 배포</h5>
+                  <p class="blacktext">
+                    개발 이후의 단계인 <br />
+                    Vercel 배포, 커스텀 도메인을 붙이기, 개발(dev/테스트) 환경과
+                    <br />
+                    운영 환경을 분리하여 배포하기까지의 여정 <br /><br />
+                    더보기
+                  </p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="articles-box">
+          <div
+            class="articles-box"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <a href="https://github.com/CEOS-Developers/react-todo-19th/pull/4">
               <div class="articles-mask">
                 <div class="articles-caption">
-                  <h5 class="white">리액트 프로젝트 PR 예시</h5>
-                  <p class="white">UI/UX Design</p>
+                  <h5 class="blacktext">리액트 프로젝트 PR</h5>
+                  <p class="blacktext">더보기</p>
                 </div>
+                <img class="articles-img" src="img/articles/02.jpg" alt="" />
               </div>
             </a>
           </div>
-          <div class="articles-box">
+          <div
+            class="articles-box"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <a href="https://github.com/couplelog/lubee-client/pull/50">
               <div class="articles-mask">
+                <img class="articles-img" src="img/articles/03.jpg" alt="" />
                 <div class="articles-caption">
-                  <h5 class="white">소셜로그인 연결 PR 예시</h5>
-                  <p class="white">UI/UX Design</p>
+                  <h5 class="blacktext">소셜로그인 연결 PR</h5>
+                  <p class="blacktext">더보기</p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="articles-box">
+          <div
+            class="articles-box"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <a href="https://github.com/CEOS-Developers/react-vote-19th/pull/5">
               <div class="articles-mask">
                 <div class="articles-caption">
-                  <h5 class="white">서버통신 PR 예시</h5>
-                  <p class="white">UI/UX Design</p>
+                  <h5 class="blacktext">서버통신 PR</h5>
+                  <p class="blacktext">더보기</p>
                 </div>
+                <img class="articles-img" src="img/articles/04.jpg" alt="" />
               </div>
             </a>
           </div>
@@ -271,75 +305,87 @@
     <section id="projects" class="projects">
       <div class="container container-lg">
         <div class="projects-title">
-          <h2 class="title">Works</h2>
+          <h2 class="title">Projects</h2>
         </div>
 
         <div class="projects-row">
           <div class="project-box">
-            <a href="#!">
-              <img class="project-img" src="img/works/01.jpg" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">Finance Dashboard</h5>
-                  <p class="white">UI/UX Design</p>
-                </div>
+            <img class="project-img" src="img/works/nonsoolmate.png" alt="" />
+            <div class="project-mask">
+              <div class="project-caption">
+                <h5 class="white">논술메이트</h5>
+                <p class="white">React/Typescript</p>
+                <span class="project-btn">
+                  <a href="https://www.nonsoolmate.com/" class="btn"
+                    >Web Site</a
+                  >
+                  <a
+                    href="https://boiled-limburger-2a1.notion.site/in-17505442a2da80059e21c39a615f85a6?pvs=73"
+                    class="btn btn-white"
+                    >Description</a
+                  >
+                </span>
               </div>
-            </a>
+            </div>
           </div>
+
           <div class="project-box">
-            <a href="#!">
-              <img class="project-img" src="img/works/02.jpg" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">Product design</h5>
-                  <p class="white">UI/UX Design</p>
-                </div>
+            <img class="project-img" src="img/works/clova.png" alt="" />
+            <div class="project-mask">
+              <div class="project-caption">
+                <h5 class="white">파인더스</h5>
+                <p class="white">React/Typescript</p>
+                <span class="project-btn">
+                  <a href="https://github.com/Rose-my/clova-deploy" class="btn"
+                    >Github</a
+                  >
+                  <a
+                    href="https://boiled-limburger-2a1.notion.site/in-17505442a2da80c29d50f09c5e69412e?pvs=4"
+                    class="btn btn-white"
+                    >Description</a
+                  >
+                </span>
               </div>
-            </a>
+            </div>
           </div>
+
           <div class="project-box">
-            <a href="#!">
-              <img class="project-img" src="img/works/03.jpg" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">Landing Page</h5>
-                  <p class="white">UI/UX Design, Web Development</p>
-                </div>
+            <img class="project-img" src="img/works/lubee.png" alt="" />
+            <div class="project-mask">
+              <div class="project-caption">
+                <h5 class="white">커플로그</h5>
+                <p class="white">React/Typescript</p>
+                <span class="project-btn">
+                  <a
+                    href="https://github.com/couplelog/lubee-client"
+                    class="btn"
+                    >Github</a
+                  >
+                  <a
+                    href="https://boiled-limburger-2a1.notion.site/in-17505442a2da806281adebfd6386209e?pvs=4"
+                    class="btn btn-white"
+                    >Description</a
+                  >
+                </span>
               </div>
-            </a>
+            </div>
           </div>
+
           <div class="project-box">
-            <a href="#!">
-              <img class="project-img" src="img/works/04.jpg" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">Portfolio</h5>
-                  <p class="white">Web Development</p>
-                </div>
+            <img class="project-img" src="img/works/react.png" alt="" />
+            <div class="project-mask">
+              <div class="project-caption">
+                <h5 class="white">React Todo list</h5>
+                <p class="white">React/Javascript</p>
+                <span class="project-btn">
+                  <a
+                    href="https://github.com/Rose-my/react-todo-19th"
+                    class="btn"
+                    >Github</a
+                  >
+                </span>
               </div>
-            </a>
-          </div>
-          <div class="project-box">
-            <a href="#!">
-              <img class="project-img" src="img/works/05.jpg" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">Cosmic Sea</h5>
-                  <p class="white">UI/UX Design, Web Development</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="project-box">
-            <a href="#!">
-              <img class="project-img" src="img/works/06.jpg" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">eCommerce</h5>
-                  <p class="white">Web Development</p>
-                </div>
-              </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
