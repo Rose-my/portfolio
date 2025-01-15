@@ -478,18 +478,23 @@ h5 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.articles-box:nth-child(odd) {
-  flex-direction: row;
-}
-
 .articles-box:nth-child(even) {
-  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 .articles-mask {
   display: flex;
+  justify-content: flex-end;
   width: 100%;
   gap: 1.5rem;
+}
+
+.articles-box:nth-child(odd) .articles-mask {
+  flex-direction: row;
+}
+
+.articles-box:nth-child(even) .articles-mask {
+  flex-direction: row-reverse;
 }
 
 .articles-img {

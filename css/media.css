@@ -228,7 +228,19 @@
   }
 
   .articles-box {
-    max-width: 100%;
+    width: 100%;
+  }
+
+  .articles-box:nth-child(odd) .articles-mask {
+    flex-direction: column;
+  }
+
+  .articles-box:nth-child(even) .articles-mask {
+    flex-direction: column;
+  }
+
+  .articles-img {
+    width: 100%;
   }
 
   .footer-copyright p {
