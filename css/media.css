@@ -12,7 +12,7 @@
   }
 
   .service-card {
-    padding: 0 1rem;
+    padding: 1rem;
   }
 }
 
@@ -52,7 +52,8 @@
 
   .about,
   .projects,
-  .contact {
+  .contact,
+  .articles {
     padding: 8rem 0;
   }
 }
@@ -167,10 +168,6 @@
   }
 
   .project-box {
-    max-width: 32.7rem;
-  }
-
-  .articles-box {
     max-width: 32.7rem;
   }
 
