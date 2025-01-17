@@ -1,6 +1,7 @@
 const nav = document.querySelector("#nav");
 const navBtn = document.querySelector("#nav-btn");
 const navBtnImg = document.querySelector("#nav-btn-img");
+const navLinks = document.querySelectorAll(".nav-link");
 
 //Preloader
 function hidePreloader() {
@@ -34,6 +35,15 @@ window.addEventListener("scroll", function () {
     header.classList.remove("header-sticky");
     goToTop.classList.remove("reveal");
   }
+});
+
+//Change Active Nav
+navLinks.forEach((link) => {
+  link.addEventListener("click", function () {
+    navLinks.forEach((nav) => nav.classList.remove("active"));
+
+    this.classList.add("active");
+  });
 });
 
 //AOS animations settings
