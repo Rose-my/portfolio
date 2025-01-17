@@ -2,6 +2,7 @@ const nav = document.querySelector("#nav");
 const navBtn = document.querySelector("#nav-btn");
 const navBtnImg = document.querySelector("#nav-btn-img");
 const navLinks = document.querySelectorAll(".nav-link");
+const sections = document.querySelectorAll("section");
 
 //Preloader
 function hidePreloader() {
@@ -45,6 +46,27 @@ navLinks.forEach((link) => {
     this.classList.add("active");
   });
 });
+
+// Nav link active as the user scrolls to the corresponding section
+function observerCallback(entries) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      navLinks.forEach((link) => link.classList.remove("active"));
+
+      const activeLink = document.querySelector(
+        `.nav-link[href="#${entry.target.id}"]`
+      );
+      activeLink.classList.add("active");
+    }
+  });
+}
+
+const observer = new IntersectionObserver(observerCallback, {
+  root: null,
+  threshold: 0.4,
+});
+
+sections.forEach((section) => observer.observe(section));
 
 //AOS animations settings
 AOS.init({
